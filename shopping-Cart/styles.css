@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+
+background-image: url('./assets/background.png');
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo 
+{
+height: 50px;
+width: 50px;
+border-radius: 100px;
+}
+.title 
+{
+    color: rgb(244, 232, 232);
+}
+.navbar 
+{
+background-color: rgb(5, 5, 51);
+color: white;
+width: 100vw;
+padding: 25px 60px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.cart 
+{
+    background-color: rgb(228, 242, 242);
+    color: rgb(13, 13, 82);
+    padding: 5px;
+    font-size: 2px;
+    border-radius: 15px;
+    position: relative;
+}
+.cartAmount 
+{
+    font-size: 26px;
+    background-color: brown;
+    color: white;
+    top: -15px;
+    right: -7px;
+    position: absolute;
+    padding: 3px;
+    border-radius: 3px;
+
+}
